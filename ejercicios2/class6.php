@@ -1,4 +1,0 @@
-<?php
-
-// Funciones en arreglos 
-

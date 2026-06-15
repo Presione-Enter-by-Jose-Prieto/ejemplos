@@ -1,46 +1,56 @@
 <?php
-    $nombre = "José Alejandro"; // Ingresa tu nombre.
-    $genero = "M";  // Usa M si eres Hombre y F si es mujer.
-?>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $nombre; ?></title>
-</head>
-<body>
-    <h1 class="title">Hola, <?php echo $nombre; ?> bienvenid<?php if ($genero === "M") { echo "o"; } else { echo "a"; } ?></h1>
-    <p class="description">Es un placer tenerte aquí. A continuación se presenta la lista de ejercicios:</p>
-    <div class="exercise-list">
-        <a href="variables/index.php">Ver variables</a>
-        <a href="funciones/index.php">Ver funciones</a>
-        <a href="ejercicios/index.php">Ver ejercicios</a>
-        <a href="tiposdedatos/index.php">Ver tipos de datos</a>
-    </div>
-</body>
-</html>
+$estructura = [
+    "fundamentos" => [
+        "variables_y_constantes.php",
+        "tipos_de_datos_strings.php",
+        "operaciones_y_geometria.php",
+    ],
+    "arrays" => [
+        "arrays_basicos.php",
+        "array_search.php",
+        "array_asociativo_dni.php",
+        "arrays_de_motos.php",
+        "arrays_mixtos_y_multidimensionales.php",
+        "array_pop.php",
+        "array_push.php",
+        "array_search_ciudades.php",
+        "sort_ciudades.php",
+    ],
+    "condicionales" => [
+        "dias_semana.php",
+        "calculadora_switch.php",
+        "notas_parcial_y_prueba.php",
+        "pais_y_departamento.php",
+    ],
+    "ciclos" => [
+        "combinaciones_tres_numeros.php",
+        "caracteres_de_palabra.php",
+        "aleatorios_hasta_multiplo_de_10.php",
+        "numeros_pares.php",
+        "multiplos_de_7.php",
+        "tablas_de_multiplicar.php",
+        "separar_letras.php",
+    ],
+    "funciones" => [
+        "nombre_y_correo_en_una_salida.php",
+        "nombre_y_correo_con_mensajes.php",
+        "funciones_y_scope.php",
+        "enviar_email.php",
+        "calcular_imc.php",
+        "multiplicacion.php",
+        "guardar_telefonos.php",
+        "tipos_estrictos.php",
+        "suma_con_parametros.php",
+    ],
+];
 
-<style>
-    .title {
-        color: black;
-        font-weight: lighter;
-        text-align: center;
-        margin: 40px 0 0 0;
+echo "Proyecto reorganizado por temas" . "<br>" . "<hr>";
+
+foreach ($estructura as $tema => $archivos) {
+    echo strtoupper($tema) . "<br>";
+    foreach ($archivos as $archivo) {
+        echo "- ejercicios/" . $tema . "/" . $archivo . "<br>";
     }
-    .description {
-        color: black;
-        font-weight: normal;
-        text-align: center;
-        margin: 0 0 0 0;
-    }
-    .exercise-list {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        align-items: center;
-        width: 100%;
-        margin: 50px 0 0 0;
-    }
-</style>
+    echo "<br>";
+}
