@@ -1,5 +1,5 @@
 <?php
 
-$ciudades = ['Medellin', 'Bogota', 'Cali', 'Barranquilla'];
+$ciudades = ["Medellin", "Bogota", "Cali", "Barranquilla"];
 
-echo 'Posición de Cali: ' . array_search('Cali', $ciudades, true) . '<br>';
+echo "Posición de Cali: " . array_search("Cali", $ciudades, true) . '<br>';

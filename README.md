@@ -13,7 +13,8 @@ Este proyecto está organizado por **tema** para que las notas de clase y los ej
     ├── arrays/
     ├── condicionales/
     ├── ciclos/
-    └── funciones/
+    ├── funciones/
+    └── strings/
 ```
 
 ## Idea general
@@ -38,12 +39,13 @@ Usa esta regla:
 - `ejercicios/condicionales/` → `if`, `else`, `switch`, validaciones, decisiones lógicas
 - `ejercicios/ciclos/` → `for`, `while`, recorridos, repeticiones, conteos
 - `ejercicios/funciones/` → funciones, parámetros, retorno, tipos, scope, `global`, `static`
+- `ejercicios/strings/` → longitud, separación, reemplazo, búsqueda y transformación de texto
 
 Si en el futuro aparece un tema nuevo, puedes crear una carpeta nueva dentro de `ejercicios/`.
 
 Por ejemplo:
 
-- `ejercicios/cadenas/`
+- `ejercicios/strings/`
 - `ejercicios/formularios/`
 - `ejercicios/poo/`
 - `ejercicios/bases_de_datos/`

@@ -2,7 +2,7 @@
 
 $directorioBase = __DIR__ . "/ejercicios";
 
-echo "Proyecto reorganizado por temas<br><hr>";
+echo "Proyecto reorganizado por temas" . "<br>" . "<hr>";
 
 if (is_dir($directorioBase)) {
     foreach (scandir($directorioBase) as $tema) {

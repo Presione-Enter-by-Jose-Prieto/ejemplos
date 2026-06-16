@@ -15,7 +15,8 @@ function generarCombinaciones(): array
         for ($j = 0; $j < count($numeros); $j++) {
             for ($k = 0; $k < count($numeros); $k++) {
                 if ($i !== $j && $j !== $k && $i !== $k) {
-                    $combinaciones[] = $numeros[$i] . $numeros[$j] . $numeros[$k];
+                    $combinaciones[] =
+                        $numeros[$i] . $numeros[$j] . $numeros[$k];
                 }
             }
         }
@@ -24,5 +25,5 @@ function generarCombinaciones(): array
     return $combinaciones;
 }
 
-echo 'Combinaciones posibles:' . '<br>';
-echo implode(' - ', generarCombinaciones()) . '<br>';
+echo "Combinaciones posibles:" . '<br>';
+echo implode(" - ", generarCombinaciones()) . '<br>';

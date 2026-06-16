@@ -5,7 +5,10 @@ for ($i = 1; $i <= 50; $i++) {
     echo $numero . '<br>';
 
     if ($numero % 10 == 0) {
-        echo 'Se detiene el programa. El número ' . $numero . ' es múltiplo de 10.' . '<br>';
+        echo "Se detiene el programa. El número " .
+            $numero .
+            " es múltiplo de 10." .
+            '<br>';
         break;
     }
 }
