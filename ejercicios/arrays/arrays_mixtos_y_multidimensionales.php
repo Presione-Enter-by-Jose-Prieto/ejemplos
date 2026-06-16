@@ -2,13 +2,13 @@
 
 $array = ['a', 'b', 'letras' => 'c', 'd'];
 
-echo 'Array asociativo mixto:' . PHP_EOL;
+echo 'Array asociativo mixto:' . '<br>';
 var_dump($array);
 
-echo PHP_EOL;
+echo '<br>';
 
 foreach ($array as $key => $value) {
-    echo 'Key: ' . $key . ', Value: ' . $value . PHP_EOL;
+    echo 'Key: ' . $key . ', Value: ' . $value . '<br>';
 }
 
 $multidimensional = [
@@ -29,13 +29,13 @@ $multidimensional = [
     ],
 ];
 
-echo PHP_EOL . 'Array multidimensional de personas:' . PHP_EOL;
+echo '<br>' . 'Array multidimensional de personas:' . '<br>';
 var_dump($multidimensional);
 
-echo PHP_EOL . 'Nombres registrados:' . PHP_EOL;
-echo $multidimensional[0]['Nombre'] . PHP_EOL;
-echo $multidimensional[1]['Nombre'] . PHP_EOL;
-echo $multidimensional[2]['Nombre'] . PHP_EOL;
+echo '<br>' . 'Nombres registrados:' . '<br>';
+echo $multidimensional[0]['Nombre'] . '<br>';
+echo $multidimensional[1]['Nombre'] . '<br>';
+echo $multidimensional[2]['Nombre'] . '<br>';
 
 $platos = [
     'Corleone' => [
@@ -64,13 +64,13 @@ $platos = [
     ],
 ];
 
-echo PHP_EOL . 'Array multidimensional de platos:' . PHP_EOL;
+echo '<br>' . 'Array multidimensional de platos:' . '<br>';
 var_dump($platos);
 
-echo PHP_EOL . 'Consultas puntuales:' . PHP_EOL;
-echo $platos['Corleone']['Carnes'] . PHP_EOL;
-echo $platos['Corleone']['Precio']['Grande'] . PHP_EOL;
-echo $platos['Batido Verde']['Frutas'] . PHP_EOL;
-echo $platos['Batido Verde']['Precio']['Mediano'] . PHP_EOL;
-echo $platos['Milanesa']['Carnes'] . PHP_EOL;
-echo $platos['Milanesa']['Precio']['Pequeño'] . PHP_EOL;
+echo '<br>' . 'Consultas puntuales:' . '<br>';
+echo $platos['Corleone']['Carnes'] . '<br>';
+echo $platos['Corleone']['Precio']['Grande'] . '<br>';
+echo $platos['Batido Verde']['Frutas'] . '<br>';
+echo $platos['Batido Verde']['Precio']['Mediano'] . '<br>';
+echo $platos['Milanesa']['Carnes'] . '<br>';
+echo $platos['Milanesa']['Precio']['Pequeño'] . '<br>';

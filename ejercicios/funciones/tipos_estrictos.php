@@ -11,7 +11,7 @@ $segundoValor = "5 days";
 $enteroValidado = filter_var($segundoValor, FILTER_VALIDATE_INT);
 
 if ($enteroValidado === false) {
-    echo "Error de tipos: el segundo valor no es un entero válido." . PHP_EOL;
+    echo "Error de tipos: el segundo valor no es un entero válido." . '<br>';
 } else {
-    echo sumarNumeros(5, $enteroValidado) . PHP_EOL;
+    echo sumarNumeros(5, $enteroValidado) . '<br>';
 }

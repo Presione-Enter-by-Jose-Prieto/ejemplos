@@ -2,15 +2,15 @@
 
 function enviarEmail(string $desde, array $destinatarios, string $asunto, string $mensaje): void
 {
-    echo 'Preparando el envío del correo' . PHP_EOL;
-    echo 'Desde: ' . $desde . PHP_EOL;
+    echo 'Preparando el envío del correo' . '<br>';
+    echo 'Desde: ' . $desde . '<br>';
 
     foreach ($destinatarios as $destinatario) {
-        echo 'Destinatario: ' . $destinatario . PHP_EOL;
+        echo 'Destinatario: ' . $destinatario . '<br>';
     }
 
-    echo 'Asunto: ' . $asunto . PHP_EOL;
-    echo 'Mensaje: ' . $mensaje . PHP_EOL . PHP_EOL;
+    echo 'Asunto: ' . $asunto . '<br>';
+    echo 'Mensaje: ' . $mensaje . '<br>' . '<br>';
 }
 
 $destinatarios = [];

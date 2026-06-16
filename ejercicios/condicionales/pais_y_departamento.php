@@ -5,10 +5,10 @@ $departamento = 'Antioquia';
 
 if ($pais == 'Colombia') {
     if ($departamento == 'Antioquia') {
-        echo 'Bienvenido a Antioquia, Colombia' . PHP_EOL;
+        echo 'Bienvenido a Antioquia, Colombia' . '<br>';
     } else {
-        echo 'Bienvenido a Colombia, visita Antioquia' . PHP_EOL;
+        echo 'Bienvenido a Colombia, visita Antioquia' . '<br>';
     }
 } else {
-    echo 'Eres extranjero, visita ' . $pais . PHP_EOL;
+    echo 'Eres extranjero, visita ' . $pais . '<br>';
 }

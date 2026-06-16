@@ -4,8 +4,8 @@ $ciudades = ['Medellin', 'Bogota', 'Cali', 'Barranquilla'];
 
 sort($ciudades);
 
-echo 'Array ordenado:' . PHP_EOL;
+echo 'Array ordenado:' . '<br>';
 
 foreach ($ciudades as $ciudad) {
-    echo $ciudad . PHP_EOL;
+    echo $ciudad . '<br>';
 }

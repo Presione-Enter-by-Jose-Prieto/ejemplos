@@ -8,4 +8,4 @@ for ($i = 1; $i <= 1000; $i++) {
     }
 }
 
-echo 'Hay ' . $count . ' múltiplos de 7 entre 1 y 1000.' . PHP_EOL;
+echo 'Hay ' . $count . ' múltiplos de 7 entre 1 y 1000.' . '<br>';

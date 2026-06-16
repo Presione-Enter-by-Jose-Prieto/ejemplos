@@ -23,8 +23,8 @@ $motos = [
     ],
 ];
 
-echo 'Inventario de motos:' . PHP_EOL;
+echo 'Inventario de motos:' . '<br>';
 
 foreach ($motos as $moto) {
-    echo $moto['Nombre'] . ' | Stock: ' . $moto['Stock'] . ' | Precio: ' . $moto['Precio'] . PHP_EOL;
+    echo $moto['Nombre'] . ' | Stock: ' . $moto['Stock'] . ' | Precio: ' . $moto['Precio'] . '<br>';
 }

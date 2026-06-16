@@ -83,7 +83,7 @@ Por eso, para nuevas notas, usa salida simple en texto:
 ```php
 <?php
 
-echo 'Hola mundo' . PHP_EOL;
+echo 'Hola mundo' . '<br>';
 ```
 
 ### 2. No agregues HTML ni CSS
@@ -122,7 +122,7 @@ salvo que sea un ejemplo muy pequeño.
 
 ### 5. Mantén la salida legible
 
-Usa `PHP_EOL` para separar líneas.
+Usa `'<br>'` para separar líneas.
 
 Ejemplo:
 
@@ -132,8 +132,8 @@ Ejemplo:
 $nombre = 'Alejandro';
 $edad = 20;
 
-echo 'Nombre: ' . $nombre . PHP_EOL;
-echo 'Edad: ' . $edad . PHP_EOL;
+echo 'Nombre: ' . $nombre . '<br>';
+echo 'Edad: ' . $edad . '<br>';
 ```
 
 ---
@@ -154,8 +154,8 @@ function ejemplo(int $numero): int
     return $numero * 2;
 }
 
-echo 'Valor original: ' . $valor . PHP_EOL;
-echo 'Valor procesado: ' . ejemplo($valor) . PHP_EOL;
+echo 'Valor original: ' . $valor . '<br>';
+echo 'Valor procesado: ' . ejemplo($valor) . '<br>';
 ```
 
 ---
@@ -226,7 +226,7 @@ entonces añade ese nombre dentro del arreglo correspondiente en `index.php`.
 2. Elige la carpeta correcta dentro de `ejercicios/`
 3. Crea un archivo con nombre descriptivo
 4. Escribe solo PHP
-5. Usa salida clara con `PHP_EOL`
+5. Usa salida clara con `'<br>'`
 6. Revisa que no tenga HTML ni CSS
 7. Actualiza `index.php` si quieres que aparezca en el listado general
 
@@ -244,7 +244,7 @@ Si mañana ves el tema de `while`, podrías crear este archivo:
 $contador = 1;
 
 while ($contador <= 5) {
-    echo 'Contador: ' . $contador . PHP_EOL;
+    echo 'Contador: ' . $contador . '<br>';
     $contador++;
 }
 ```

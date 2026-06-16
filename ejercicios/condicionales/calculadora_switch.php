@@ -6,21 +6,21 @@ $operacion = '+';
 
 switch ($operacion) {
     case '+':
-        echo $var1 + $var2 . PHP_EOL;
+        echo $var1 + $var2 . '<br>';
         break;
     case '-':
-        echo $var1 - $var2 . PHP_EOL;
+        echo $var1 - $var2 . '<br>';
         break;
     case '*':
-        echo $var1 * $var2 . PHP_EOL;
+        echo $var1 * $var2 . '<br>';
         break;
     case '/':
         if ($var2 != 0) {
-            echo $var1 / $var2 . PHP_EOL;
+            echo $var1 / $var2 . '<br>';
         } else {
-            echo 'Error: división por cero.' . PHP_EOL;
+            echo 'Error: división por cero.' . '<br>';
         }
         break;
     default:
-        echo 'Operación no válida.' . PHP_EOL;
+        echo 'Operación no válida.' . '<br>';
 }

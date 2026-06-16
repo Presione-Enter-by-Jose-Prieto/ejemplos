@@ -6,12 +6,12 @@ $dni = [
     'María' => 1090411455,
 ];
 
-echo $dni['Alejandro'] . PHP_EOL;
-echo $dni['Camila'] . PHP_EOL;
-echo $dni['María'] . PHP_EOL;
+echo $dni['Alejandro'] . '<br>';
+echo $dni['Camila'] . '<br>';
+echo $dni['María'] . '<br>';
 
-echo PHP_EOL . 'Recorrido completo del array asociativo:' . PHP_EOL;
+echo '<br>' . 'Recorrido completo del array asociativo:' . '<br>';
 
 foreach ($dni as $nombre => $numero) {
-    echo $nombre . ': ' . $numero . PHP_EOL;
+    echo $nombre . ': ' . $numero . '<br>';
 }

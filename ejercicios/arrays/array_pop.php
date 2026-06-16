@@ -4,9 +4,9 @@ $ciudades = ['Medellin', 'Bogota', 'Barranquilla'];
 
 $ultimoElemento = array_pop($ciudades);
 
-echo 'El último elemento era: ' . $ultimoElemento . PHP_EOL;
-echo 'Contenido restante del array:' . PHP_EOL;
+echo 'El último elemento era: ' . $ultimoElemento . '<br>';
+echo 'Contenido restante del array:' . '<br>';
 
 foreach ($ciudades as $ciudad) {
-    echo $ciudad . PHP_EOL;
+    echo $ciudad . '<br>';
 }

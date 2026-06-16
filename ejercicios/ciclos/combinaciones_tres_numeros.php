@@ -24,5 +24,5 @@ function generarCombinaciones(): array
     return $combinaciones;
 }
 
-echo 'Combinaciones posibles:' . PHP_EOL;
-echo implode(' - ', generarCombinaciones()) . PHP_EOL;
+echo 'Combinaciones posibles:' . '<br>';
+echo implode(' - ', generarCombinaciones()) . '<br>';

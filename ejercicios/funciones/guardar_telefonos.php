@@ -11,7 +11,7 @@ function guardarTelefonos(string $numero = '0000000', array $telefonos = []): ar
 function mostrarTelefonos(array $telefonos = []): void
 {
     foreach ($telefonos as $telefono) {
-        echo $telefono . PHP_EOL;
+        echo $telefono . '<br>';
     }
 }
 

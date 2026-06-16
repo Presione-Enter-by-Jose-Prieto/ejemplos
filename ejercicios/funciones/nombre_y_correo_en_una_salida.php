@@ -6,7 +6,7 @@ $correo = 'jose.prieto@example.com';
 function ejercicio1(): void
 {
     global $nombre, $correo;
-    echo $nombre . ' - ' . $correo . PHP_EOL;
+    echo $nombre . ' - ' . $correo . '<br>';
 }
 
 ejercicio1();

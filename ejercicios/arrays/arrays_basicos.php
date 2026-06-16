@@ -3,7 +3,7 @@
 $ciudades = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla'];
 $x = 'Hola, mundo!';
 
-echo 'Arrays básicos en PHP' . PHP_EOL;
+echo 'Arrays básicos en PHP' . '<br>';
 var_dump($ciudades);
 var_dump($x);
 
@@ -11,13 +11,13 @@ $x = null;
 var_dump(boolval($x));
 
 $x = -5;
-echo 'Valor positivo de x: ' . (-$x) . PHP_EOL;
+echo 'Valor positivo de x: ' . (-$x) . '<br>';
 
 $x2 = 78;
 $x2 += 7;
-echo 'Resultado de x2 += 7: ' . $x2 . PHP_EOL;
+echo 'Resultado de x2 += 7: ' . $x2 . '<br>';
 
 $a = 78;
 $b = 7;
 $b += $a;
-echo 'Resultado de b += a: ' . $b . PHP_EOL;
+echo 'Resultado de b += a: ' . $b . '<br>';

@@ -1,8 +1,8 @@
 <?php
 
-$texto = 'Medellín';
+$texto = "Medellín";
 
-echo 'Strings en PHP' . PHP_EOL;
-echo 'Texto original: ' . $texto . PHP_EOL;
-echo 'Longitud medida por strlen: ' . strlen($texto) . PHP_EOL;
+echo "Strings en PHP" . "<br>";
+echo "Texto original: " . $texto . "<br>";
+echo "Longitud medida por strlen: " . strlen($texto) . "<br>";
 var_dump($texto);

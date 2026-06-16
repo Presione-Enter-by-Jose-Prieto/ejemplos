@@ -7,10 +7,10 @@ $resultadoConArray = in_array(strtolower($dia), $noLaborable, true)
     ? $dia . ' es día no laborable.'
     : $dia . ' es día laboral.';
 
-echo 'Evaluación con in_array:' . PHP_EOL;
-echo $resultadoConArray . PHP_EOL . PHP_EOL;
+echo 'Evaluación con in_array:' . '<br>';
+echo $resultadoConArray . '<br>' . '<br>';
 
-echo 'Evaluación con switch:' . PHP_EOL;
+echo 'Evaluación con switch:' . '<br>';
 
 switch (strtolower($dia)) {
     case 'lunes':
@@ -19,14 +19,14 @@ switch (strtolower($dia)) {
     case 'miercoles':
     case 'jueves':
     case 'viernes':
-        echo $dia . ' es día laboral.' . PHP_EOL;
+        echo $dia . ' es día laboral.' . '<br>';
         break;
     case 'sábado':
     case 'sabado':
     case 'domingo':
-        echo $dia . ' es día no laborable.' . PHP_EOL;
+        echo $dia . ' es día no laborable.' . '<br>';
         break;
     default:
-        echo 'No se reconoce el día: ' . $dia . PHP_EOL;
+        echo 'No se reconoce el día: ' . $dia . '<br>';
         break;
 }

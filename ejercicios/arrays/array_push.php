@@ -2,14 +2,14 @@
 
 $ciudades = ['Medellin', 'Bogota'];
 
-echo 'Antes de insertar:' . PHP_EOL;
+echo 'Antes de insertar:' . '<br>';
 foreach ($ciudades as $ciudad) {
-    echo $ciudad . PHP_EOL;
+    echo $ciudad . '<br>';
 }
 
 array_push($ciudades, 'Cali', 'Barranquilla');
 
-echo PHP_EOL . 'Después de insertar:' . PHP_EOL;
+echo '<br>' . 'Después de insertar:' . '<br>';
 foreach ($ciudades as $ciudad) {
-    echo $ciudad . PHP_EOL;
+    echo $ciudad . '<br>';
 }
