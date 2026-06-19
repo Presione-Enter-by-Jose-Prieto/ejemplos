@@ -56,7 +56,7 @@ if (is_dir($directorioTalleres)) {
                     is_file($rutaArchivo) &&
                     pathinfo($archivo, PATHINFO_EXTENSION) === "php"
                 ) {
-                    echo "/apuntes/" . $tema . "/" . $archivo . "<br>";
+                    echo "/talleres/" . $tema . "/" . $archivo . "<br>";
                 }
             }
 
